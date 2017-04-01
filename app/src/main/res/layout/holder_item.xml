@@ -1,0 +1,39 @@
+<com.hanshao.viewdraghelper.smaple.view.SmoothItem
+    android:layout_width="match_parent"
+    android:minHeight="100dp"
+    android:id="@+id/item"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="100dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="15sp"
+            android:textColor="#FFF"
+            android:text="左文本"
+            android:background="#F32153"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:background="#112362"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:textSize="15sp"
+            android:text="右文本"
+            android:textColor="#FFF"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</com.hanshao.viewdraghelper.smaple.view.SmoothItem>

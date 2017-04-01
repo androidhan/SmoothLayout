@@ -1,0 +1,56 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F32153"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#3f51b5"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="60dp">
+    
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/open"
+        android:layout_centerVertical="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:tint="#FFF"
+        app:srcCompat="@drawable/ic_format_list"
+        />
+
+
+        <TextView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="主页"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="17sp"
+        android:id="@+id/look"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+        android:text="查看其他ViewDragHelper的实现效果"
+
+        />
+
+
+
+
+</LinearLayout>
